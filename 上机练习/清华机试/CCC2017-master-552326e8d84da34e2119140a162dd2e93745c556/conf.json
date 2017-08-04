@@ -1,0 +1,17 @@
+{
+  "folder": "contest",
+  "name": "name_for_programers",
+  "short title": {
+    "zh-cn": "\u6b63\u5f0f\u7684\u7b80\u79f0"
+  },
+  "subdir": [
+    "day1"
+  ],
+  "subtitle": {
+    "zh-cn": "\u5b50\u6807\u9898\u5982\u51ac\u4ee4\u8425"
+  },
+  "title": {
+    "zh-cn": "\u6b63\u5f0f\u7684\u4e2d\u6587\u540d\u79f0"
+  },
+  "version": 0
+}

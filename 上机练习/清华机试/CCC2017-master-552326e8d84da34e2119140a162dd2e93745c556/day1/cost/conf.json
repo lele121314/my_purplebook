@@ -1,0 +1,40 @@
+{
+  "compile": {
+    "c": "-O2 -lm",
+    "cpp": "-O2 -lm",
+    "pas": "-O2"
+  },
+  "data": [
+    {
+      "cases": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    }
+  ],
+  "folder": "problem",
+  "memory limit": "256 MB",
+  "name": "cost",
+  "samples": [
+    {
+      "cases": [
+        1,
+        "cost2"
+      ]
+    }
+  ],
+  "time limit": 1.0,
+  "title": {
+    "zh-cn": "Cost"
+  },
+  "type": "program",
+  "version": 0
+}

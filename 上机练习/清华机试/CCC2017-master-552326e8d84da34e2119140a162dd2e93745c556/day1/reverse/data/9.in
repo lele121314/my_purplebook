@@ -1,0 +1,1 @@
+the const version modifies  it on the first  access to string   characters after  the object has been  constructed   or modified

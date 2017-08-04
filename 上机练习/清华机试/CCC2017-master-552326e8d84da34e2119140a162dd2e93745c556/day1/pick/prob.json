@@ -1,0 +1,13 @@
+{
+	"cnname" : "pick",
+	"type" : "program",
+	"time limit" : 1.0,
+	"memory limit" : "256 MB",
+	"test cases" : 10,
+	"compile" : {
+		"cpp" : "-O2 -lm",
+		"c" : "-O2 -lm",
+		"pas" : "-O2"
+	},
+	"sample count" : 1
+}

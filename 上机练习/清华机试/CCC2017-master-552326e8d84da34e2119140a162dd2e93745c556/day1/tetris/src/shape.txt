@@ -1,0 +1,27 @@
+AA
+AA
+
+B
+B
+B
+B   BBBB
+
+C    C  CCC  CC
+CCC  C    C  C
+    CC       C
+
+  D DD  DDD  D
+DDD  D  D    D
+     D       DD
+
+EE    E
+ EE  EE
+     E
+
+ FF  F
+FF   FF
+      F
+
+ G    G  GGG  G
+GGG  GG   G   GG
+      G       G

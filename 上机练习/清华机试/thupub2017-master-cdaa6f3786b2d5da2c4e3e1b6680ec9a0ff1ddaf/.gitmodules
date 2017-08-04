@@ -1,0 +1,6 @@
+[submodule "oi_tools"]
+	path = oi_tools
+	url = git@git.thusaac.org:mulab/oi_tools.git
+[submodule "testlib"]
+	path = testlib
+	url = https://github.com/MikeMirzayanov/testlib.git

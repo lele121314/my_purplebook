@@ -1,0 +1,123 @@
+{
+  "args": [
+    {
+      "comment": "n\u548cm\u7684\u8303\u56f4",
+      "value": 100000
+    },
+    {
+      "comment": "\u8eab\u9ad8\u7684\u8303\u56f4",
+      "value": 100000
+    }
+  ],
+  "comments": [
+    "\u5bf9\u4e8e10%\u7684\u6570\u636e\uff0c\u7b7e\u5230",
+    "\u5bf9\u4e8e20%\u7684\u6570\u636e\uff0c\u53ef\u4ee5\u63a5\u53d7n*h*k\u7684\u7b97\u6cd5",
+    "\u5bf9\u4e8e40%\u7684\u6570\u636e\uff0c\u53ef\u4ee5\u63a5\u53d7n*k*k\u7684\u7b97\u6cd5",
+    "\u5bf9\u4e8e60%\u7684\u6570\u636e\uff0c\u53ef\u4ee5\u63a5\u53d7n*(h+k)\u7684\u7b97\u6cd5",
+    "\u5bf9\u4e8e100%\u7684\u6570\u636e\uff0c\u53ef\u4ee5\u63a5\u53d7h*logn\u7684\u7b97\u6cd5"
+  ],
+  "compile": {
+    "c": "-lm",
+    "cpp": "-lm",
+    "java": "",
+    "pas": ""
+  },
+  "data": [
+    {
+      "args": [
+        "$1 \\\\le m \\\\le n \\\\le 100$",
+        "$k=0;1 \\\\le h_i \\\\le 100$"
+      ],
+      "cases": [
+        1,
+        2
+      ]
+    },
+    {
+      "args": [
+        "$1 \\\\le m \\\\le n \\\\le 2\\\\times 10^3$",
+        "$0 \\\\le k \\\\le 50;1 \\\\le h_i \\\\le 100$"
+      ],
+      "cases": [
+        3,
+        4
+      ]
+    },
+    {
+      "args": [
+        null,
+        "$0 \\\\le k \\\\le 100;1 \\\\le h_i \\\\le 5\\\\times 10^3$"
+      ],
+      "cases": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "args": [
+        null,
+        "$0 \\\\le k \\\\le 5\\\\times 10^3;1 \\\\le h_i \\\\le 5\\\\times 10^3$"
+      ],
+      "cases": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "args": [
+        "$1 \\\\le m \\\\le n \\\\le 2\\\\times 10^3$",
+        "$0 \\\\le k \\\\le 10^5;1 \\\\le h_i \\\\le 10^5$"
+      ],
+      "cases": [
+        13,
+        14
+      ]
+    },
+    {
+      "args": [
+        "$1 \\\\le m \\\\le n \\\\le 10^5$",
+        "$0 \\\\le k \\\\le 100;1 \\\\le h_i \\\\le 10^5$"
+      ],
+      "cases": [
+        15,
+        16
+      ]
+    },
+    {
+      "args": [
+        "$1 \\\\le m \\\\le n \\\\le 10^5$",
+        "$0 \\\\le k \\\\le 10^5;1 \\\\le h_i \\\\le 10^5$"
+      ],
+      "cases": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "folder": "problem",
+  "memory limit": "512 MB",
+  "name": "interview",
+  "partial score": false,
+  "samples": [
+    {
+      "cases": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "time limit": 1,
+  "title": {
+    "zh-cn": "\u9762\u8bd5"
+  },
+  "type": "program",
+  "version": 0
+}

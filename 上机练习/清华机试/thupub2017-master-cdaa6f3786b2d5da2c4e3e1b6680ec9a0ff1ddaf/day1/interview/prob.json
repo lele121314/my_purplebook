@@ -1,0 +1,35 @@
+{
+	"type" : "program",
+	"cnname" : "面试",
+	"time limit" : 1,
+	"memory limit" : "512 MB",
+	"test cases" : 20,
+	"partial score" : false,
+	"compile" : {
+		"cpp" : "-lm",
+		"c" : "-lm",
+		"pas" : "",
+		"java" : ""
+	},
+	"sample count" : 4,
+	"args" : [
+        {"value": 100000, "comment": "n和m的范围"},
+        {"value": 100000, "comment": "身高的范围"}
+    ],
+	"data" : [
+		{"cases" : [1, 2], "args" : ["$1 \\\\le m \\\\le n \\\\le 100$", "$k=0;1 \\\\le h_i \\\\le 100$"]},
+		{"cases" : [3, 4], "args" : ["$1 \\\\le m \\\\le n \\\\le 2\\\\times 10^3$", "$0 \\\\le k \\\\le 50;1 \\\\le h_i \\\\le 100$"]},
+		{"cases" : [5, 6, 7, 8], "args" : [null, "$0 \\\\le k \\\\le 100;1 \\\\le h_i \\\\le 5\\\\times 10^3$"]},
+		{"cases" : [9, 10, 11, 12], "args" : [null, "$0 \\\\le k \\\\le 5\\\\times 10^3;1 \\\\le h_i \\\\le 5\\\\times 10^3$"]},
+		{"cases" : [13, 14], "args" : ["$1 \\\\le m \\\\le n \\\\le 2\\\\times 10^3$", "$0 \\\\le k \\\\le 10^5;1 \\\\le h_i \\\\le 10^5$"]},
+		{"cases" : [15, 16], "args" : ["$1 \\\\le m \\\\le n \\\\le 10^5$", "$0 \\\\le k \\\\le 100;1 \\\\le h_i \\\\le 10^5$"]},
+		{"cases" : [17, 18, 19, 20], "args" : ["$1 \\\\le m \\\\le n \\\\le 10^5$", "$0 \\\\le k \\\\le 10^5;1 \\\\le h_i \\\\le 10^5$"]}
+	],
+	"comments": [
+		"对于10%的数据，签到",
+		"对于20%的数据，可以接受n*h*k的算法",
+		"对于40%的数据，可以接受n*k*k的算法",
+		"对于60%的数据，可以接受n*(h+k)的算法",
+		"对于100%的数据，可以接受h*logn的算法"
+	]
+}
