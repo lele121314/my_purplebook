@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include<string.h>
 #include<vector>
 using namespace std;
@@ -75,7 +76,7 @@ bool iiscross(int x,int y){
 	if(y<4||y>6||x<1||x>3)return false;
 	return true;
 }
-bool check(){//ï¿½ï¿½ 
+bool check(){//£¿ 
 	for(int i=xx+1;i<=10;i++){
 		if(ad[i][yy]=='G')return false;
 		else if(ad[i][yy]!=0)break;
