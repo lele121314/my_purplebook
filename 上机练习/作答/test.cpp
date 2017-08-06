@@ -1,11 +1,6 @@
-#include<queue>
-#include<cstdio>
+#include<iostream>
+
 using namespace std;
 int main(){
-    queue<int> q;
-    q.push(1);
-    q.push(2);
-    printf("%d",q.front());
-    q.pop();
-    printf("%d",q.front());
+    cout<<(1<<3);
 }
