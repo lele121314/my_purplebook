@@ -8,7 +8,7 @@ struct piao{
    int L,C;
 }Pi[3];
 int L;
-int dp[214748364];
+int dp[1000000];
 bool ipt(){
     if(scanf("%d%d%d%d%d%d",&Pi[0].L,&Pi[1].L,&Pi[2].L,&Pi[0].C,&Pi[1].C,&Pi[0].C)==EOF)return false;
     int A,B;
