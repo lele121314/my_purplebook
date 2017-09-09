@@ -105,7 +105,7 @@ namespace Solve
             }
         memset(swept, 0, sizeof(swept));
         memset(flaged, 0, sizeof(flaged));
-        
+
         char buf[1024];
         int total_step = 0;
         while(scanf("%s", buf))
@@ -173,7 +173,7 @@ namespace Solve
 
 int main(int argc, char* argv[])
 {
-    freopen("mine.in", "r", stdin);
+    freopen("1.in", "r", stdin);
     freopen("mine.out", "w", stdout);
 
     Solve::solve();
